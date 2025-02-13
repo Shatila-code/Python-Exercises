@@ -25,10 +25,10 @@ print("the ticketprice is $",ticketPrice)
 
 num=int(input("Enter a number :"))
 
-if num>0:
+if num%2==0:
     print("The number is even")
 
-elif num<0:
+elif num%2==1:
     print("The number is odd")  
 
 
